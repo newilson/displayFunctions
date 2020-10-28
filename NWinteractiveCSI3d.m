@@ -2,7 +2,7 @@ function NWinteractiveCSI3d(im,axppm,im2,axppm2,title)
 
 im = squeeze(im);
 si = size(im);
-pix = round(si(1:2)/2);
+pix = round(si(2:3)/2);
 frame = 1;
 slice = 1;
 
